@@ -7,66 +7,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Website Animation</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./assets/js/jquery-3.5.1.js"></script>
+    <script src="./assets/js/restrictUser.js"></script>
 </head>
 
 <body>
-    <div class="main">
-        <nav>
-            <div class="logo">
-                <img src="./assets/images/logo.png" alt="logo">
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Phone</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Cart</a></li>
-                </ul>
-            </div>
-        </nav>
 
-        <div class="information">
-            <div class="overlay"></div>
-            <img src="./assets/images/mobile.png" alt="mobile" class="mobile">
-            <div id="circle" class="circle">
-                <div class="feature one">
-                    <img src="./assets/images/camera.png" alt="camera">
-                    <div>
-                        <h1>Camera</h1>
-                        <p>12MP, Wide Angle Lens</p>
-                    </div>
+    <div class="content-desktop">
+
+        <div class="main">
+            <nav>
+                <div class="logo">
+                    <img src="./assets/images/logo.png" alt="logo">
                 </div>
-                <div class="feature two">
-                    <img src="./assets/images/processor.png" alt="Processor">
-                    <div>
-                        <h1>Processor</h1>
-                        <p>Snapdragon Octa-core 11nm</p>
-                    </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Phone</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Cart</a></li>
+                    </ul>
                 </div>
-                <div class="feature three">
-                    <img src="./assets/images/display.png" alt="Display">
-                    <div>
-                        <h1>Display</h1>
-                        <p>6.5" Mini-Drop fullscreen</p>
+            </nav>
+
+            <div class="information">
+                <div class="overlay"></div>
+                <img src="./assets/images/mobile.png" alt="mobile" class="mobile">
+                <div id="circle" class="circle">
+                    <div class="feature one">
+                        <img src="./assets/images/camera.png" alt="camera">
+                        <div>
+                            <h1>Camera</h1>
+                            <p>12MP, Wide Angle Lens</p>
+                        </div>
                     </div>
-                </div>
-                <div class="feature four">
-                    <img src="./assets/images/battery.png" alt="Battery">
-                    <div>
-                        <h1>Battery Life</h1>
-                        <p>5000mAh, 720hrs Standby</p>
+                    <div class="feature two">
+                        <img src="./assets/images/processor.png" alt="Processor">
+                        <div>
+                            <h1>Processor</h1>
+                            <p>Snapdragon Octa-core 11nm</p>
+                        </div>
+                    </div>
+                    <div class="feature three">
+                        <img src="./assets/images/display.png" alt="Display">
+                        <div>
+                            <h1>Display</h1>
+                            <p>6.5" Mini-Drop fullscreen</p>
+                        </div>
+                    </div>
+                    <div class="feature four">
+                        <img src="./assets/images/battery.png" alt="Battery">
+                        <div>
+                            <h1>Battery Life</h1>
+                            <p>5000mAh, 720hrs Standby</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="controls">
-            <img src="./assets/images/arrow.png" alt="arrow" id="upBtn" class="up-btn">
-            <h3>Features</h3>
-            <img src="./assets/images/arrow.png" alt="arrow" id="downBtn" class="down-btn">
+            <div class="controls">
+                <img src="./assets/images/arrow.png" alt="arrow" id="upBtn" class="up-btn">
+                <h3>Features</h3>
+                <img src="./assets/images/arrow.png" alt="arrow" id="downBtn" class="down-btn">
+            </div>
+
         </div>
 
     </div>
+
+    <div class="content-mobile">
+        <h1>Animation visible only in min 1200px width device.</h1>
+    </div>
+
 
     <script src="./assets/js/index.js"></script>
 </body>
